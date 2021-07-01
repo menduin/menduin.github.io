@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="cogumelo mario.svg" type="image/x-icon">
+    <link rel="stylesheet" type= "text/css" href="formulario.css" media="">
+
+    <title> Formulário Gamer </title>
+</head>
+
+<body>
+    
+    <div>
+        <h1 id="titulo">Questionário Nintendo Brasil</h1>
+        <p id="subtitulo">Queremos saber mais sobre a sua relação com a Nintendo </p>
+        <br>
+    </div>
+    <div> <img src="Sem título-1.png" alt="logo da empresa" srcset="">
+
+    </div>
+    <form action="https://formspree.io/f/mlealwvk">
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Nome</strong></label>
+                <input type="text" name = "nome" id="nome" >
+            </div>
+
+        <div class="campo">
+                <label for="sobrenome"><strong>Sobrenome</strong></label>
+                <input type="text" name = "sobrenome" id="sobrenome" >
+        </div>
+
+        </fieldset>
+        
+        <div class="campo">
+            <label for="email"><strong>Email</strong></label>
+                <input type="email" name = "email" id="email" >
+            </div>
+
+            <div class="campo">
+            <label>
+                    <strong>Qual console você tem ou já teve?</strong>
+            </label>
+
+            <label>
+                <input type="radio" name="console" value="Super Nintendo" checked> Super Nintendo
+            </label>
+
+            <label>
+                <input type="radio" name="console" value="Nintendo 64" checked> Nintendo 64 
+            </label>
+
+            <label> 
+                <input type="radio" name="console" value="Nintendo Wii"> Nintendo Wii
+            </label>
+
+            <label> 
+                <input type="radio" name="console" value="Nintendo Switch"> Nintendo Switch
+            </label>
+        </div>
+
+        <div class="campo">
+            <label for="senioridade"><strong> A quanto tempo você joga os games da Nintendo</strong></label>
+            <select id= "senioridade">
+                <option selected disabled value ="">Selecione </option>
+                <option> 1 ano </option>
+                <option>+ de 5 anos </option>
+                <option> + de 10 anos </option>
+            </select>
+        </div>
+
+        <fieldset class="grupo">
+            <div id="check">
+                <label><strong>Quais jogos exclusivos da Nintendo você prefere:</strong></label>
+                <br>
+                <!-- div alinhar  -->
+                <div> 
+                <input class= "container" type="checkbox" id="jogo1" name="jogo1" value="Mario World">
+                <Label class= "container" for= "jogo1">Mario World</Label>
+                <input class= "container" type="checkbox" id="jogo2" name="jogo2" value="Zelda">
+                <Label class= "container" for= "jogo2">Zelda</Label>
+                <input class= "container" type="checkbox" id="jogo3" name="jogo3" value="Donkey Kong">
+                <Label class= "container" for= "jogo3">Donkey Kong</Label>
+                <input class= "container" type="checkbox" id="jogo4" name="jogo4" value="Kirby">
+                <Label class= "container" for= "jogo4">Kirby</Label>
+              <br>
+              
+                <input class= "container" type="checkbox" id="jogo5" name="jogo5" value="Splatoon">
+                <Label class= "container" for= "jogo5">Splatoon</Label>
+                <input class= "container" type="checkbox" id="jogo6" name="jogo6" value="Pokémon">
+                <Label class= "container" for= "jogo6">Pokémon</Label>
+                <input class= "container" type="checkbox" id="jogo7" name="jogo7" value="F-Zero">
+                <Label class= "container" for= "jogo7">F-Zero</Label>
+                <input class= "container" type="checkbox" id="jogo8" name="jogo8" value="Metroid">
+                <Label class= "container" for= "jogo8">Metroid</Label>
+            </div>
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <br>
+            <strong>Conte um pouco da sua relação com a marca Nintendo:
+            <input class="ultimacaixadetexto" type="text" name="Relação Nintendo" size="60">
+        </div>
+
+            <button class="botao" type="submit" onsubmit="" id="my-form-button">Concluído</button> 
+            <p id="my-form-status"></p>
+
+        </form>
+    
+        
+    
+    </body>
+
+    
+
+    
+</html>
